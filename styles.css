@@ -34,3 +34,6 @@
 /* SVS & Co. brand lockup */
 .brand{display:flex;align-items:center;gap:10px;line-height:1;letter-spacing:0}.logo-mark{width:39px;height:39px;display:grid;place-items:center;color:var(--orange-2);border:1px solid #ffffff57;transition:transform .25s,border-color .25s}.logo-mark svg{width:31px;height:31px}.brand:hover .logo-mark{transform:translateY(-2px);border-color:var(--orange-2)}.brand-copy{display:flex;flex-direction:column;gap:5px}.brand-copy strong{font-size:20px;font-weight:800;letter-spacing:.3px;white-space:nowrap}.brand-copy strong i{font-style:normal;color:var(--orange-2);font-weight:700}.brand-copy small{margin-top:0;font-size:7.5px;text-transform:uppercase;letter-spacing:1.25px;font-weight:800;opacity:.76;white-space:nowrap}.footer-brand .logo-mark{border-color:#ffffff38}.footer-brand .brand-copy strong{font-size:22px}@media(max-width:760px){.logo-mark{width:35px;height:35px}.logo-mark svg{width:28px;height:28px}.brand-copy strong{font-size:18px}.brand-copy small{font-size:6.5px;letter-spacing:.9px}}
 
+/* Inline SVG service marks avoid font-dependent symbol rendering. */
+.service-icon{display:flex;align-items:center}.service-icon svg{width:27px;height:27px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.scroll-cue span:after{content:"\\2193"}
+
