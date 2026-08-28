@@ -48,7 +48,7 @@ document.querySelector('.enquiry').addEventListener('submit', async event => {
     message.textContent = error.message || 'Unable to send your enquiry. Please try again shortly.';
   } finally {
     button.disabled = false;
-    button.innerHTML = 'Send Enquiry <span>â†—</span>';
+    button.innerHTML = 'Send Enquiry <span>&#8599;</span>';
   }
 });
 
